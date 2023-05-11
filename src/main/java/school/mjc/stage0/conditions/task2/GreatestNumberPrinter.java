@@ -3,9 +3,6 @@ import java.nio.channels.SelectableChannel;
 import java.util.Scanner;
 public class GreatestNumberPrinter {
     public void printGreatest(int first, int second) {
-        first = 12;
-        second = -400;
-
         if (first > second) {
             System.out.println(first);
         }
